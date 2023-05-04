@@ -1,0 +1,29 @@
+npm init -y 
+# Inicializamos el proyecto
+
+npm install typescript -D (D dependencia de desarrollo)
+# Instalamos typescript
+
+# En package .json inicializamos dentro de scripts "tsc":"tsc"
+
+# Para correr el proyecto
+npm run tsc (declarado en package.json) -- --init
+npm run tsc -> compila
+npm run -> corre el back
+npm run dev -> corre en modo dev (recomendado para cuando tenemos un dev que refresca)
+
+
+## Agregar en scripts "start": "node build/index.js"
+
+# Configurar el tsconfig.json
+
+# Instalar dependencias.
+npm install express -E (Dependencia exacta)
+npm install @types/express -D
+npm install chai mocha -E
+npm install chai @types/chai --save-dev
+npm install sinon @types/sinon --save-dev
+npm install @types/mocha --save-dev
+npm install ts-node-dev -D (Auto compile)
+
+## Agregar en scripts "dev": "ts-node-dev"
