@@ -1,3 +1,9 @@
+// interface CustomerInterface {
+//     name: String,
+//     adress: String,
+//     email: String
+// }
+
 export default class Customer {
 
     private name: String;
