@@ -6,6 +6,8 @@ from src.beigns import Person
 def person() -> Person:
     return Person("Andres Convertini", 32, jobs=["Mechanical Engineer"])
 
+def test_dummy():
+    assert True == True
 
 def test_init(person: Person):
     assert person.name == "Andres Convertini"
